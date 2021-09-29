@@ -12,4 +12,81 @@
 /* Body styles */
 body {
   max-width: 1440px;
+  color: #333333;
+  padding-top: 40px;
+}
+
+/* Header */
+header {
+  margin-left: 77px;
+}
+
+/* Img, text, and button */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 77px;
+  padding-top: 5%;
+}
+
+.text {
+  padding-left: 120px;
+}
+
+img {
+  width: 100%;
+  max-width: 540px;
+  min-width: 285px;
+  height: auto;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  max-width: 586px;
+}
+
+.main p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  max-width: 400px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+button {
+  width: 216px;
+  height: 68px;
+  background-color: #333333;
+  color: white;
+  border: none;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  padding: 24px 4px;
+  margin-top: 64px;
+}
+
+/* copyright notice */
+footer {
+  text-align: center;
+  color: #bdbdbd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 24px;
+  margin-top: 24px; /* solucion temporal FIXME */
+}
+
+footer span {
+  font-weight: 700;
+  text-decoration: underline;
 }
