@@ -60,6 +60,7 @@ h2 {
   font-weight: 400;
   line-height: 35px;
   max-width: 400px;
+  padding-top: 36px;
 }
 
 button {
@@ -79,12 +80,10 @@ button {
 footer {
   text-align: center;
   color: #bdbdbd;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  font-size: 14px;
   width: 100%;
   margin-bottom: 24px;
-  margin-top: 24px; /* solucion temporal FIXME */
+  padding-top: 310px;
 }
 
 footer span {
@@ -92,6 +91,7 @@ footer span {
   text-decoration: underline;
 }
 
+/* BREAKPOINT for media-query */
 @media (max-width: 576px) {
   header,
   .main {
@@ -111,5 +111,9 @@ footer span {
   .text p {
     padding-top: 30px;
     font-size: 24px;
+  }
+
+  footer {
+    padding-top: 110px;
   }
 }
